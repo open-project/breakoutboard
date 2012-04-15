@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 14 Apr 2012 12:23:22 PM CEST
+PCBNEW-BOARD Version 1 date Sun 15 Apr 2012 06:05:41 PM CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -9,8 +9,8 @@ LayerCount 2
 EnabledLayers 1FFF8001
 Links 18
 NoConn 0
-Di 8978 7959 21172 14823
-Ndraw 0
+Di 8978 7330 21172 15506
+Ndraw 4
 Ntrack 78
 Nzone 0
 BoardThickness 630
@@ -19,11 +19,11 @@ Nnets 19
 $EndGENERAL
 
 $SHEETDESCR
-Sheet A3 16535 11693
-Title ""
-Date "14 apr 2012"
-Rev ""
-Comp ""
+Sheet A4 11693 8268
+Title "TD62783 breakout board"
+Date "15 apr 2012"
+Rev "1.0"
+Comp "open-project.ch"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -59,7 +59,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref true) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror true) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 VisibleElements FFFFFFBF
 $EndSETUP
 
@@ -773,7 +773,25 @@ Ne 0 ""
 Po -375 -375
 $EndPAD
 $EndMODULE 4PIN_S_SMD
+$DRAWSEGMENT
+Po 0 20472 7481 9843 7481 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 20472 15355 20472 7481 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 9843 15355 20472 15355 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 9843 7481 9843 15355 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
 $TRACK
+Po 0 19090 8334 19090 9060 100 -1
+De 15 0 1 0 0
 Po 0 16114 9988 16114 10232 100 -1
 De 15 0 1 4F8345B8 0
 Po 0 16378 9724 16114 9988 100 -1
@@ -782,8 +800,6 @@ Po 0 18426 9724 16378 9724 100 -1
 De 15 0 1 4F8345B5 0
 Po 0 19090 9060 18426 9724 100 -1
 De 15 0 1 4F8345B3 0
-Po 0 19090 8334 19090 9060 100 -1
-De 15 0 1 0 0
 Po 0 14834 9204 14834 10232 100 -1
 De 15 0 2 4F83458B 0
 Po 0 14331 8957 14587 8957 100 -1
@@ -848,14 +864,14 @@ Po 0 15090 8334 15090 10232 100 -1
 De 15 0 8 0 0
 Po 0 16090 8733 15866 8957 100 -1
 De 15 0 9 4F834591 0
-Po 0 15346 9221 15346 10232 100 -1
-De 15 0 9 4F834599 0
-Po 0 15610 8957 15346 9221 100 -1
-De 15 0 9 4F834597 0
-Po 0 15866 8957 15610 8957 100 -1
-De 15 0 9 4F834596 0
 Po 0 16090 8334 16090 8733 100 -1
 De 15 0 9 0 0
+Po 0 15346 9221 15346 10232 100 -1
+De 15 0 9 4F834599 0
+Po 0 15866 8957 15610 8957 100 -1
+De 15 0 9 4F834596 0
+Po 0 15610 8957 15346 9221 100 -1
+De 15 0 9 4F834597 0
 Po 0 18090 14334 18090 13739 100 -1
 De 15 0 10 0 0
 Po 0 15858 12787 15858 12436 100 -1
@@ -866,16 +882,16 @@ Po 0 17530 13179 16250 13179 100 -1
 De 15 0 10 4F8346A4 0
 Po 0 18090 13739 17530 13179 100 -1
 De 15 0 10 4F83469D 0
-Po 0 15858 9732 15858 10232 100 -1
-De 15 0 11 4F8345B0 0
-Po 0 17657 9469 16121 9469 100 -1
-De 15 0 11 4F8345AC 0
-Po 0 18090 9036 17657 9469 100 -1
-De 15 0 11 4F8345AA 0
-Po 0 18090 8334 18090 9036 100 -1
-De 15 0 11 0 0
 Po 0 16121 9469 15858 9732 100 -1
 De 15 0 11 4F8345AF 0
+Po 0 18090 8334 18090 9036 100 -1
+De 15 0 11 0 0
+Po 0 15858 9732 15858 10232 100 -1
+De 15 0 11 4F8345B0 0
+Po 0 18090 9036 17657 9469 100 -1
+De 15 0 11 4F8345AA 0
+Po 0 17657 9469 16121 9469 100 -1
+De 15 0 11 4F8345AC 0
 Po 0 11090 14334 11090 13733 100 -1
 De 15 0 12 0 0
 Po 0 14066 12676 14066 12436 100 -1
@@ -886,14 +902,14 @@ Po 0 11900 12923 13819 12923 100 -1
 De 15 0 12 4F834653 0
 Po 0 11090 13733 11900 12923 100 -1
 De 15 0 12 4F83464C 0
-Po 0 16122 13435 15602 12915 100 -1
-De 15 0 13 4F8346AE 0
-Po 0 15602 12915 15602 12436 100 -1
-De 15 0 13 4F8346B2 0
 Po 0 16762 13435 16122 13435 100 -1
 De 15 0 13 4F8346AC 0
+Po 0 15602 12915 15602 12436 100 -1
+De 15 0 13 4F8346B2 0
 Po 0 17090 14334 17090 13763 100 -1
 De 15 0 13 0 0
+Po 0 16122 13435 15602 12915 100 -1
+De 15 0 13 4F8346AE 0
 Po 0 17090 13763 16762 13435 100 -1
 De 15 0 13 4F8346AA 0
 Po 0 16090 14334 16090 13787 100 -1
