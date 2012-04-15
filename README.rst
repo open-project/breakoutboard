@@ -1,6 +1,6 @@
-=======================================
-open-project breakout boards collection
-=======================================
+==========================================
+open-project.ch breakout boards collection
+==========================================
 
 This is a collection of breakout boards for commonly used SMD components. All breakout boards are made to fit a standard DIL package with a width of 600mil. The boards are available as `KiCad <http://kicad.sourceforge.net>`_ files and as PDF files for easy printing. See `open-project.ch <http://open-project.ch>`_ for more details.
 
