@@ -1,35 +1,4 @@
-EESchema Schematic File Version 2  date Sun 15 Apr 2012 04:47:11 PM CEST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:open-project
+EESchema Schematic File Version 2  date Fri 20 Apr 2012 07:31:05 PM CEST
 LIBS:tlc5940-cache
 EELAYER 25  0
 EELAYER END
@@ -37,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 apr 2012"
+Date "20 apr 2012"
 Rev ""
 Comp "open-project.ch"
 Comment1 "Tobias Schmidt"
@@ -232,6 +201,10 @@ Text Label 2800 3050 0    60   ~ 0
 OUT9
 Text Label 2800 2950 0    60   ~ 0
 OUT8
+Text Label 2800 4250 0    60   ~ 0
+PWR_VCC
+Text Label 7550 3850 0    60   ~ 0
+PWR_GND
 Wire Wire Line
 	5300 3150 4800 3150
 Wire Wire Line
@@ -356,9 +329,10 @@ Wire Wire Line
 	2750 3950 3200 3950
 Wire Wire Line
 	2750 4250 3200 4250
-Text Label 2800 4250 0    60   ~ 0
-PWR_VCC
-NoConn ~ 2750 4150
-Text Label 7550 3850 0    60   ~ 0
-PWR_GND
+Wire Wire Line
+	2750 4150 3200 4150
+Text Label 6150 3050 0    60   ~ 0
+IREF
+Text Label 2800 4150 0    60   ~ 0
+IREF
 $EndSCHEMATC

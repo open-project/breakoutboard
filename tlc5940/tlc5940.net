@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 15 Apr 2012 04:47:18 PM CEST
+# EESchema Netlist Version 1.1 created  Fri 20 Apr 2012 07:31:10 PM CEST
 (
  ( /4F7F07D3 $noname  R20 10k {Lib=R}
   (    1 VCC )
@@ -9,7 +9,7 @@
   (    2 GND )
  )
  ( /4F7F050A $noname  R21 2.2k {Lib=R}
-  (    1 N-000029 )
+  (    1 /IREF )
   (    2 GND )
  )
  ( /4F7F0457 $noname  U2 TLC5940PWP {Lib=TLC5940PWP}
@@ -39,7 +39,7 @@
   (   24 /SOUT )
   (   25 /GSCLK )
   (   26 /DCPRG )
-  (   27 N-000029 )
+  (   27 /IREF )
   (   28 VCC )
  )
  ( /4F8ADD1A $noname  P1 DIL28 {Lib=DIL28}
@@ -69,7 +69,7 @@
   (   24 /SOUT )
   (   25 /GSCLK )
   (   26 /DCPRG )
-  (   27 ? )
+  (   27 /IREF )
   (   28 VCC )
  )
 )
@@ -106,94 +106,95 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/OUT11" "OUT11"
- U2 18
- P1 18
-Net 2 "/OUT10" "OUT10"
+Net 1 "/OUT10" "OUT10"
  P1 17
  U2 17
-Net 3 "/OUT9" "OUT9"
+Net 2 "/OUT9" "OUT9"
  P1 16
  U2 16
-Net 4 "/OUT8" "OUT8"
+Net 3 "/OUT8" "OUT8"
  P1 15
  U2 15
+Net 4 "GND" "GND"
+ C16 2
+ R21 2
+ U2 1
+ P1 1
 Net 5 "VCC" "VCC"
- U2 28
- C16 1
  R20 1
+ C16 1
  P1 28
-Net 6 "/OUT2" "OUT2"
- P1 9
- U2 9
-Net 7 "/OUT12" "OUT12"
- U2 19
- P1 19
-Net 8 "/VPRG" "VPRG"
- U2 6
+ U2 28
+Net 6 "/VPRG" "VPRG"
  P1 6
-Net 9 "/SIN" "SIN"
- U2 5
+ U2 6
+Net 7 "/SIN" "SIN"
  P1 5
-Net 10 "/SCLK" "SCLK"
+ U2 5
+Net 8 "/SCLK" "SCLK"
  U2 4
  P1 4
-Net 11 "/XLAT" "XLAT"
+Net 9 "/XLAT" "XLAT"
  U2 3
  P1 3
-Net 12 "/OUT7" "OUT7"
+Net 10 "/OUT7" "OUT7"
  P1 14
  U2 14
-Net 13 "/OUT6" "OUT6"
+Net 11 "/OUT6" "OUT6"
  P1 13
  U2 13
-Net 14 "/OUT5" "OUT5"
- U2 12
+Net 12 "/OUT5" "OUT5"
  P1 12
-Net 15 "/OUT4" "OUT4"
- P1 11
+ U2 12
+Net 13 "/OUT4" "OUT4"
  U2 11
-Net 16 "/OUT3" "OUT3"
- U2 10
+ P1 11
+Net 14 "/OUT3" "OUT3"
  P1 10
-Net 17 "/OUT1" "OUT1"
+ U2 10
+Net 15 "/OUT2" "OUT2"
+ P1 9
+ U2 9
+Net 16 "/OUT1" "OUT1"
  P1 8
  U2 8
-Net 18 "/OUT0" "OUT0"
+Net 17 "/OUT0" "OUT0"
  U2 7
  P1 7
-Net 19 "GND" "GND"
- P1 1
- U2 1
- R21 2
- C16 2
-Net 20 "/BLANK" "BLANK"
+Net 18 "/BLANK" "BLANK"
  P1 2
- U2 2
  R20 2
-Net 21 "/DCPRG" "DCPRG"
+ U2 2
+Net 19 "/DCPRG" "DCPRG"
  P1 26
  U2 26
-Net 22 "/GSCLK" "GSCLK"
+Net 20 "/GSCLK" "GSCLK"
  P1 25
  U2 25
-Net 23 "/SOUT" "SOUT"
- U2 24
+Net 21 "/SOUT" "SOUT"
  P1 24
-Net 24 "/XERR" "XERR"
- U2 23
+ U2 24
+Net 22 "/XERR" "XERR"
  P1 23
-Net 25 "/OUT15" "OUT15"
- U2 22
+ U2 23
+Net 23 "/OUT15" "OUT15"
  P1 22
-Net 26 "/OUT14" "OUT14"
- P1 21
+ U2 22
+Net 24 "/OUT14" "OUT14"
  U2 21
-Net 27 "/OUT13" "OUT13"
- P1 20
+ P1 21
+Net 25 "/OUT13" "OUT13"
  U2 20
-Net 29 "" ""
+ P1 20
+Net 26 "/OUT12" "OUT12"
+ U2 19
+ P1 19
+Net 27 "/OUT11" "OUT11"
+ U2 18
+ P1 18
+Net 28 "/IREF" "IREF"
  R21 1
  U2 27
+ P1 27
 }
 #End
