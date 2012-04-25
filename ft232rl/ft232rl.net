@@ -1,0 +1,270 @@
+# EESchema Netlist Version 1.1 created  Wed 25 Apr 2012 11:24:21 PM CEST
+(
+ ( /4F9326FD $noname  U1 FT232RL {Lib=FT232RL}
+  (    1 /TXD )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000003 )
+  (    5 /RXD )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 N-000004 )
+  (   15 N-000002 )
+  (   16 N-000001 )
+  (   17 N-000023 )
+  (   18 GND )
+  (   19 ? )
+  (   20 +5V )
+  (   21 GND )
+  (   22 N-000007 )
+  (   23 N-000005 )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /4F932945 $noname  J1 USB_2 {Lib=USB_2}
+  (    1 N-000029 )
+  (    2 N-000001 )
+  (    3 N-000002 )
+  (    4 GND )
+ )
+ ( /4F932975 $noname  C2 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4F932996 $noname  C4 100n {Lib=C}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /4F9329A5 $noname  C6 100n {Lib=C}
+  (    1 /PWR_3V3 )
+  (    2 GND )
+ )
+ ( /4F9329BB $noname  L1 MI0805K400R-10 {Lib=INDUCTOR}
+  (    1 N-000029 )
+  (    2 +5V )
+ )
+ ( /4F9329CA $noname  C1 10n {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( /4F9329F4 $noname  C3 10u {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4F932A12 $noname  JP1 JUMPER3 {Lib=JUMPER3}
+  (    1 N-000023 )
+  (    2 N-000003 )
+  (    3 +5V )
+ )
+ ( /4F932A21 $noname  R2 330 {Lib=R}
+  (    1 +5V )
+  (    2 N-000006 )
+ )
+ ( /4F932A30 $noname  R3 330 {Lib=R}
+  (    1 +5V )
+  (    2 N-000008 )
+ )
+ ( /4F932A3F $noname  R4 10k {Lib=R}
+  (    1 +5V )
+  (    2 N-000004 )
+ )
+ ( /4F932A4E $noname  D1 LED {Lib=LED}
+  (    1 N-000006 )
+  (    2 N-000005 )
+ )
+ ( /4F932A5D $noname  D2 LED {Lib=LED}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /4F986501 $noname  Q1 IRLML6402 {Lib=MOSFET_P}
+  (    D /PWR_5V )
+  (    G N-000024 )
+  (    S +5V )
+ )
+ ( /4F986515 $noname  R1 1k {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000004 )
+ )
+ ( /4F98661C $noname  Q2 IRLML6402 {Lib=MOSFET_P}
+  (    D /PWR_3V3 )
+  (    G N-000024 )
+  (    S N-000023 )
+ )
+ ( /4F9868FC $noname  C5 100n {Lib=C}
+  (    1 /PWR_5V )
+  (    2 GND )
+ )
+ ( /4F986FA6 $noname  P1 DIL6 {Lib=DIL6}
+  (    1 /PWR_5V )
+  (    2 /PWR_3V3 )
+  (    3 GND )
+  (    4 ? )
+  (    5 /TXD )
+  (    6 /RXD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ J1 2
+ U1 16
+Net 2 "" ""
+ U1 15
+ J1 3
+Net 3 "" ""
+ U1 4
+ JP1 2
+Net 4 "" ""
+ U1 14
+ R1 2
+ R4 2
+Net 5 "" ""
+ D1 2
+ U1 23
+Net 6 "" ""
+ D1 1
+ R2 2
+Net 7 "" ""
+ D2 2
+ U1 22
+Net 8 "" ""
+ D2 1
+ R3 2
+Net 10 "/TXD" "TXD"
+ U1 1
+ P1 5
+Net 11 "/RXD" "RXD"
+ U1 5
+ P1 6
+Net 23 "" ""
+ Q2 S
+ C4 1
+ JP1 1
+ U1 17
+Net 24 "" ""
+ Q2 G
+ R1 1
+ Q1 G
+Net 25 "/PWR_5V" "PWR_5V"
+ Q1 D
+ C5 1
+ P1 1
+Net 26 "/PWR_3V3" "PWR_3V3"
+ P1 2
+ Q2 D
+ C6 1
+Net 27 "GND" "GND"
+ U1 25
+ U1 21
+ U1 26
+ U1 18
+ C5 2
+ P1 3
+ J1 4
+ C2 2
+ C4 2
+ C6 2
+ C1 2
+ C3 2
+ U1 7
+Net 28 "+5V" "+5V"
+ Q1 S
+ R4 1
+ C2 1
+ L1 2
+ C3 1
+ JP1 3
+ R2 1
+ R3 1
+ U1 20
+Net 29 "" ""
+ J1 1
+ L1 1
+ C1 1
+}
+#End

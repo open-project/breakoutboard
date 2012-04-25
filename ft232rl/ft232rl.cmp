@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 25 Apr 2012 11:31:44 PM CEST
+
+BeginCmp
+TimeStamp = /4F9329CA;
+Reference = C1;
+ValeurCmp = 10n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932975;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9329F4;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932996;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9868FC;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9329A5;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A4E;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A5D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932945;
+Reference = J1;
+ValeurCmp = USB_2;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A12;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9329BB;
+Reference = L1;
+ValeurCmp = MI0805K400R-10;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F986FA6;
+Reference = P1;
+ValeurCmp = DIL6;
+IdModule  = DIP-6__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F986501;
+Reference = Q1;
+ValeurCmp = IRLML6402;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F98661C;
+Reference = Q2;
+ValeurCmp = IRLML6402;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F986515;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A21;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A30;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F932A3F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9326FD;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+EndListe
