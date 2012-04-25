@@ -1,0 +1,47 @@
+# EESchema Netlist Version 1.1 created  Wed 25 Apr 2012 09:37:32 PM CEST
+(
+ ( /4F985206 $noname  D1 RGB_LED_PLCC6 {Lib=RGB_LED_PLCC6}
+  (    1 N-000006 )
+  (    2 N-000003 )
+  (    3 N-000005 )
+  (    4 N-000002 )
+  (    5 N-000004 )
+  (    6 N-000001 )
+ )
+ ( /4F98523E $noname  P1 DIL6 {Lib=DIL6}
+  (    1 N-000006 )
+  (    2 N-000005 )
+  (    3 N-000004 )
+  (    4 N-000001 )
+  (    5 N-000002 )
+  (    6 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ RGB_LED_PLCC6
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ D1 6
+ P1 4
+Net 2 "" ""
+ D1 4
+ P1 5
+Net 3 "" ""
+ P1 6
+ D1 2
+Net 4 "" ""
+ P1 3
+ D1 5
+Net 5 "" ""
+ P1 2
+ D1 3
+Net 6 "" ""
+ P1 1
+ D1 1
+}
+#End

@@ -1,0 +1,275 @@
+PCBNEW-BOARD Version 1 date Wed 25 Apr 2012 09:55:50 PM CEST
+
+# Created by Pcbnew(2011-nov-30)-testing
+
+$GENERAL
+encoding utf-8
+Units deci-mils
+LayerCount 2
+EnabledLayers 1FFF8001
+Links 6
+NoConn 0
+Di 10873 7723 15899 15899
+Ndraw 4
+Ntrack 14
+Nzone 0
+BoardThickness 630
+Nmodule 2
+Nnets 7
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11693 8268
+Title "PLCC6 RGB LED breakout board"
+Date "25 apr 2012"
+Rev "1.0"
+Comp "open-project.ch"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 100
+TrackClearence 100
+ZoneClearence 200
+Zone_45_Only 0
+TrackMinWidth 100
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref true) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 2) (mirror true) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+VisibleElements FFFFFFBF
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "N-000001"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000002"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "N-000003"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "N-000004"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "N-000005"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "N-000006"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 100
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "N-000001"
+AddNet "N-000002"
+AddNet "N-000003"
+AddNet "N-000004"
+AddNet "N-000005"
+AddNet "N-000006"
+$EndNCLASS
+$MODULE RGB_LED_PLCC6
+Po 13385 11811 900 15 4F7F4572 4F985455 ~~
+Li RGB_LED_PLCC6
+Sc 4F985455
+AR /4F985206
+Op 0 0 0
+T0 21 64 400 400 900 100 N V 21 N "D1"
+T1 0 1350 400 400 900 100 N I 21 N "RGB_LED_PLCC6"
+DS 450 950 950 400 150 21
+DS -984 984 -984 -984 150 21
+DS -984 -984 984 -984 150 21
+DS 984 -984 984 984 150 21
+DS 984 984 -984 984 150 21
+$PAD
+Sh "1" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-000006"
+Po -984 -630
+$EndPAD
+$PAD
+Sh "3" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "N-000005"
+Po -984 0
+$EndPAD
+$PAD
+Sh "5" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000004"
+Po -984 630
+$EndPAD
+$PAD
+Sh "6" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "N-000001"
+Po 984 630
+$EndPAD
+$PAD
+Sh "4" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-000002"
+Po 984 0
+$EndPAD
+$PAD
+Sh "2" R 354 591 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-000003"
+Po 984 -630
+$EndPAD
+$EndMODULE RGB_LED_PLCC6
+$MODULE DIP-6__600
+Po 13385 11811 0 15 4F985423 4F985456 ~~
+Li DIP-6__600
+Cd 6 pins DIL package, round pads, width 600mil
+Kw DIL
+Sc 4F985456
+AR /4F98523E
+Op 0 0 0
+T0 -1150 -1800 700 450 0 113 N V 21 N "P1"
+T1 0 1900 700 650 0 120 N V 21 N "DIL6"
+DS -2000 -2500 1950 -2500 150 21
+DS -2000 2500 1950 2500 150 21
+DS -2000 -500 -1500 -500 150 21
+DS -1500 -500 -1500 500 150 21
+DS -1500 500 -2000 500 150 21
+DS 1950 -2500 1950 2500 150 21
+DS -2000 2500 -2000 -2500 150 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 6 "N-000006"
+Po -1000 3000
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 5 "N-000005"
+Po 0 3000
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 4 "N-000004"
+Po 1000 3000
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000001"
+Po 1000 -3000
+$EndPAD
+$PAD
+Sh "5" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 2 "N-000002"
+Po 0 -3000
+$EndPAD
+$PAD
+Sh "6" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 3 "N-000003"
+Po -1000 -3000
+$EndPAD
+$EndMODULE DIP-6__600
+$DRAWSEGMENT
+Po 0 15748 7874 11024 7874 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 11024 15748 15748 15748 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 11024 7874 11024 15748 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 15748 7874 15748 15748 150
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+Po 0 14015 10827 14015 9785 100 -1
+De 15 0 1 0 400000
+Po 0 14385 9415 14385 8811 100 -1
+De 15 0 1 4F985512 800000
+Po 0 14015 9785 14385 9415 100 -1
+De 15 0 1 4F98550F 0
+Po 0 13385 10827 13385 8811 100 -1
+De 15 0 2 0 C00000
+Po 0 12755 10827 12755 9755 100 -1
+De 15 0 3 0 400000
+Po 0 12385 9385 12385 8811 100 -1
+De 15 0 3 4F98550A 800000
+Po 0 12755 9755 12385 9385 100 -1
+De 15 0 3 4F985508 0
+Po 0 14015 12795 14015 13815 100 -1
+De 15 0 4 0 400000
+Po 0 14385 14185 14385 14811 100 -1
+De 15 0 4 4F98551B 800000
+Po 0 14015 13815 14385 14185 100 -1
+De 15 0 4 4F985519 0
+Po 0 13385 12795 13385 14811 100 -1
+De 15 0 5 0 C00000
+Po 0 12755 12795 12755 13845 100 -1
+De 15 0 6 0 400000
+Po 0 12385 14215 12385 14811 100 -1
+De 15 0 6 4F985520 800000
+Po 0 12755 13845 12385 14215 100 -1
+De 15 0 6 4F98551E 0
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
