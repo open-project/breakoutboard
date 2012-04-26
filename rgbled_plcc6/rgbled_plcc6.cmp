@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Wed 25 Apr 2012 09:45:13 PM CEST
+
+BeginCmp
+TimeStamp = /4F985206;
+Reference = D1;
+ValeurCmp = RGB_LED_PLCC6;
+IdModule  = RGB_LED_PLCC6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F98523E;
+Reference = P1;
+ValeurCmp = DIL6;
+IdModule  = DIP-6__600;
+EndCmp
+
+EndListe

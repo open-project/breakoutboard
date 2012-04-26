@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sun 15 Apr 2012 04:47:23 PM CEST
+
+BeginCmp
+TimeStamp = /4F7F070E;
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8ADD1A;
+Reference = P1;
+ValeurCmp = DIL28;
+IdModule  = DIP-28__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7F07D3;
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7F050A;
+Reference = R21;
+ValeurCmp = 2.2k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7F0457;
+Reference = U2;
+ValeurCmp = TLC5940PWP;
+IdModule  = TSSOP-28-PWP;
+EndCmp
+
+EndListe

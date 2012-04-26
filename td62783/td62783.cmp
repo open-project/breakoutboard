@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 09 Apr 2012 05:23:39 PM CEST
+
+BeginCmp
+TimeStamp = /4F82F84C;
+Reference = P1;
+ValeurCmp = DIL18;
+IdModule  = DIP-18__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F82F822;
+Reference = U1;
+ValeurCmp = TD62783;
+IdModule  = TSSOP18;
+EndCmp
+
+EndListe
